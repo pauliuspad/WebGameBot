@@ -17,10 +17,10 @@ https://chromedriver.chromium.org/downloads
 
 ### For Raspberry pi
 
-Selenium framework:
+#### Selenium framework:
 pip3 install selenium
 
-WebDriver chromium:
+#### WebDriver chromium:
 sudo apt-get install chromium-chromedriver
-Path to chromium:
+#### Path to chromium:
 /usr/lib/chromium-browser/chromedriver
