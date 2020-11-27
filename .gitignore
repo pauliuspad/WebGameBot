@@ -1,0 +1,7 @@
+**/__pycache__
+**/.vscode
+
+*.log
+/get-pip.py
+**/login.py
+**/get-pip.py
