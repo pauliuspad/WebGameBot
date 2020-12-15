@@ -7,7 +7,7 @@ import time, math
 from datetime import datetime, timedelta  
  
 # Set option to 11 for auto fight or 12 for auto work at the start of the program 
-option = 0
+option = 11
 times = -1
 time_option = 0
 

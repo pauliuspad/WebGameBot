@@ -77,8 +77,11 @@ def login_function():
 # Function that goes to the last played game server
 def last_game():
     previous_game_btn = [ '' , '', '', '//*[@id="joinGame"]/button', '#joinGame > a > button']
+    select_world = [ '' , '', '', '/html/body/div[1]/div/div/div/div[2]/section[1]/div[2]/div/div/div[1]/div[2]/div[1]/div/div[11]/button', '.open > div:nth-child(1) > div:nth-child(11) > button:nth-child(1)']
+    
     try:
         find_element(previous_game_btn, True)
+        find_element(select_world, True)
         return True
     except:
         print("there is no last played game")
